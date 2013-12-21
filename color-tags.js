@@ -35,7 +35,7 @@ function colorTag(tagString) {
 
 	/**
 	 * This is the definition of a color for our purposes.  We've abstracted it out
-	 * so that we can return a new color object even after running lighten/darken functions
+	 * so that we can return new color objects when required
 	*/
 	function color(hexCode) {
 		//were we given a hashtag?  remove it.
